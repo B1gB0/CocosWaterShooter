@@ -1,0 +1,191 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9b062398-4713-42eb-b3a5-d908bd184581",
+  "files": [],
+  "subMetas": {
+    "fd666": {
+      "importer": "gltf-mesh",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@fd666",
+      "displayName": "",
+      "id": "fd666",
+      "name": "Tree3Burned-lod1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "lodLevel": 1,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16c52": {
+      "importer": "gltf-mesh",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@16c52",
+      "displayName": "",
+      "id": "16c52",
+      "name": "Tree3Burned-lod2.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "lodLevel": 2,
+        "triangleCount": 10
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "785c4": {
+      "importer": "gltf-mesh",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@785c4",
+      "displayName": "",
+      "id": "785c4",
+      "name": "Tree3Burned-lod3.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "lodLevel": 3,
+        "triangleCount": 6
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9b062398-4713-42eb-b3a5-d908bd184581@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49d99": {
+      "importer": "gltf-scene",
+      "uuid": "9b062398-4713-42eb-b3a5-d908bd184581@49d99",
+      "displayName": "",
+      "id": "49d99",
+      "name": "Tree3burned.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "9b062398-4713-42eb-b3a5-d908bd184581@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": true,
+      "hasBuiltinLOD": true,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.0625,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9b062398-4713-42eb-b3a5-d908bd184581@fd666",
+        "9b062398-4713-42eb-b3a5-d908bd184581@16c52",
+        "9b062398-4713-42eb-b3a5-d908bd184581@785c4"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9b062398-4713-42eb-b3a5-d908bd184581@7d6ab"
+      ],
+      "materials": [
+        "9d18e498-a9a2-490a-aee7-e7e683bf21c5"
+      ],
+      "scenes": [
+        "9b062398-4713-42eb-b3a5-d908bd184581@49d99"
+      ]
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false,
+    "meshOptimizer": {
+      "enable": false,
+      "algorithm": "simplify",
+      "simplifyOptions": {
+        "targetRatio": 1,
+        "enableSmartLink": true,
+        "agressiveness": 7,
+        "maxIterationCount": 100
+      }
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/materials"
+  }
+}

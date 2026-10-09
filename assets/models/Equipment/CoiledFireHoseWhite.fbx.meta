@@ -1,0 +1,132 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a41a6731-7ae9-4421-9969-81d2e26666f6",
+  "files": [],
+  "subMetas": {
+    "16277": {
+      "importer": "gltf-scene",
+      "uuid": "a41a6731-7ae9-4421-9969-81d2e26666f6@16277",
+      "displayName": "",
+      "id": "16277",
+      "name": "CoiledFireHoseWhite.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7dc38": {
+      "importer": "gltf-mesh",
+      "uuid": "a41a6731-7ae9-4421-9969-81d2e26666f6@7dc38",
+      "displayName": "",
+      "id": "7dc38",
+      "name": "CoiledFireHoseWhite.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 404
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a41a6731-7ae9-4421-9969-81d2e26666f6@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "a41a6731-7ae9-4421-9969-81d2e26666f6@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a41a6731-7ae9-4421-9969-81d2e26666f6@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "a41a6731-7ae9-4421-9969-81d2e26666f6@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a41a6731-7ae9-4421-9969-81d2e26666f6@7dc38"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a41a6731-7ae9-4421-9969-81d2e26666f6@7d6ab"
+      ],
+      "materials": [
+        "9d18e498-a9a2-490a-aee7-e7e683bf21c5"
+      ],
+      "scenes": [
+        "a41a6731-7ae9-4421-9969-81d2e26666f6@16277"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/materials"
+  }
+}

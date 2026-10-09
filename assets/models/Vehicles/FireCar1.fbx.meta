@@ -1,0 +1,250 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "0f158": {
+      "importer": "gltf-mesh",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@0f158",
+      "displayName": "",
+      "id": "0f158",
+      "name": "Text.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 152
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2df18": {
+      "importer": "gltf-mesh",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@2df18",
+      "displayName": "",
+      "id": "2df18",
+      "name": "Equipment.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 3424
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "edb0c": {
+      "importer": "gltf-mesh",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@edb0c",
+      "displayName": "",
+      "id": "edb0c",
+      "name": "FireCar2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 2425
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2660a": {
+      "importer": "gltf-mesh",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@2660a",
+      "displayName": "",
+      "id": "2660a",
+      "name": "Text.003.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 272
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a424": {
+      "importer": "gltf-mesh",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@9a424",
+      "displayName": "",
+      "id": "9a424",
+      "name": "Shutter.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 28
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ff2e": {
+      "importer": "gltf-animation",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@6ff2e",
+      "displayName": "",
+      "id": "6ff2e",
+      "name": "ShutterAction.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.0416667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "530f3518-0263-4c4b-b16b-32f74eb90eaa@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cacb1": {
+      "importer": "gltf-scene",
+      "uuid": "530f3518-0263-4c4b-b16b-32f74eb90eaa@cacb1",
+      "displayName": "",
+      "id": "cacb1",
+      "name": "FireCar1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "530f3518-0263-4c4b-b16b-32f74eb90eaa@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "ShutterAction",
+        "duration": 2.0416667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "ShutterAction",
+            "from": 0,
+            "to": 2.0416667461395264,
+            "wrapMode": 2,
+            "previousId": "6ff2e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@0f158",
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@2df18",
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@edb0c",
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@2660a",
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@9a424"
+      ],
+      "skeletons": [],
+      "textures": [
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@7d6ab"
+      ],
+      "materials": [
+        "9d18e498-a9a2-490a-aee7-e7e683bf21c5",
+        "2825e45f-de45-4c5c-9cd4-0459082d6aae"
+      ],
+      "scenes": [
+        "530f3518-0263-4c4b-b16b-32f74eb90eaa@cacb1"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/materials"
+  }
+}

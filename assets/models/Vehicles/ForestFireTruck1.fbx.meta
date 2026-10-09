@@ -1,0 +1,231 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "2df18": {
+      "importer": "gltf-mesh",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@2df18",
+      "displayName": "",
+      "id": "2df18",
+      "name": "Equipment.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 5554
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d11d9": {
+      "importer": "gltf-mesh",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@d11d9",
+      "displayName": "",
+      "id": "d11d9",
+      "name": "Text.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 252
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57a6a": {
+      "importer": "gltf-mesh",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@57a6a",
+      "displayName": "",
+      "id": "57a6a",
+      "name": "ForestFireTruck1.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 3821
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a424": {
+      "importer": "gltf-mesh",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@9a424",
+      "displayName": "",
+      "id": "9a424",
+      "name": "Shutter.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 14
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ff2e": {
+      "importer": "gltf-animation",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@6ff2e",
+      "displayName": "",
+      "id": "6ff2e",
+      "name": "ShutterAction.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.0416667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a08340a4-e3dc-429a-b234-27e493c2b2e9@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f7a6": {
+      "importer": "gltf-scene",
+      "uuid": "a08340a4-e3dc-429a-b234-27e493c2b2e9@5f7a6",
+      "displayName": "",
+      "id": "5f7a6",
+      "name": "ForestFireTruck1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "a08340a4-e3dc-429a-b234-27e493c2b2e9@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "ShutterAction",
+        "duration": 2.0416667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "ShutterAction",
+            "from": 0,
+            "to": 2.0416667461395264,
+            "wrapMode": 2,
+            "previousId": "6ff2e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@2df18",
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@d11d9",
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@57a6a",
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@9a424"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@7d6ab"
+      ],
+      "materials": [
+        "9d18e498-a9a2-490a-aee7-e7e683bf21c5",
+        "2825e45f-de45-4c5c-9cd4-0459082d6aae"
+      ],
+      "scenes": [
+        "a08340a4-e3dc-429a-b234-27e493c2b2e9@5f7a6"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/materials"
+  }
+}
