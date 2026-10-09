@@ -9,10 +9,8 @@ export class InputController {
         if (!this._instance) this._instance = new InputController();
         return this._instance;
     }
-
-    /** Позиция указателя на экране (нормализованная, -1..1) */
+    
     public readonly pointer = new Vec2();
-    /** Нажат ли сейчас палец / ЛКМ / пробел */
     public isFiring: boolean = false;
 
     private _keys: Set<number> = new Set();

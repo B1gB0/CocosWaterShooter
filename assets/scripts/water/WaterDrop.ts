@@ -3,26 +3,24 @@ const { ccclass } = _decorator;
 
 @ccclass('WaterDrop')
 export class WaterDrop extends Component {
-    public velocity: Vec3 = new Vec3();
+    public velocity = new Vec3();
     public lifeRemaining: number = 0;
     public gravity: number = -9.8;
 
     private _tmpPos = new Vec3();
-    private _onExpire: ((node: typeof this.node) => void) | null = null;
+    private _onExpire: ((node: Node) => void) | null = null;
 
-    public launch(pos: Vec3, dir: Vec3, speed: number, life: number, onExpire: (n: any) => void): void {
+    public launch(pos: Vec3, dir: Vec3, speed: number, life: number, onExpire: (n: Node) => void): void {
         this.node.setWorldPosition(pos);
         this.velocity.set(dir).multiplyScalar(speed);
         this.lifeRemaining = life;
         this._onExpire = onExpire;
     }
 
-    update(dt: number) {
+    private update(dt: number) {
         if (this.lifeRemaining <= 0) return;
 
         this.lifeRemaining -= dt;
-
-        // Гравитация — эффект дуги струи
         this.velocity.y += this.gravity * dt;
 
         this._tmpPos.set(this.node.worldPosition);
