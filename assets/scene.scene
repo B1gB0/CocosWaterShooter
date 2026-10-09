@@ -839,7 +839,7 @@
     "node": {
       "__id__": 38
     },
-    "_enabled": false,
+    "_enabled": true,
     "__prefab": null,
     "dropPrefab": {
       "__uuid__": "7739e4da-7dd8-4dbd-9b0a-9ff7c91e3157",
@@ -3360,7 +3360,7 @@
     "node": {
       "__id__": 208
     },
-    "_enabled": true,
+    "_enabled": false,
     "__prefab": null,
     "_materials": [
       {
@@ -4034,7 +4034,7 @@
     "node": {
       "__id__": 208
     },
-    "_enabled": true,
+    "_enabled": false,
     "__prefab": null,
     "waterParticles": {
       "__id__": 209
